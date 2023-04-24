@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl" lang="fa" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./dist/main.css">
+    <title>Document</title>
+</head>
+<body class=" bg-stone-700 font-vazir">
+    
+        <div class="container box-border bg-white mx-auto w-6/12 mt-10 border rounded-md mx-auto px-4 py-6">
+            <form id="task-form">
+                <div class="grid grid-cols-1 gap-2">
+                    <label class="text-lg">ایجاد تسک</label>
+                    <input  class="input" id="task-input" placeholder="تسک را وارد کنید"/>
+                </div>
+                    <button type="submit" class="my-4 btn btn-primary">اضافه کردن</button>
+                </form>
+            <hr>
+            
+            <div >
+                <div class="grid grid-cols-1 my-4 gap-2">
+
+                    <h1 class="text-2xl">تسک ها</h1>
+                    <label for="filter"> فیلتر تسک </label>
+                    <input type="email" class=" input " id="filter" name="filter" placeholder="تسک "/>
+                    <ul class="task-list">
+                        <!-- <li class="border rounded px-3 py-3 flex items-center">تسک
+                            <i class="fas fa-times text-red-600 mr-auto inline-block  "></i>
+                        </li> -->
+                        
+                    </ul>
+                </div>
+                    <button class=" inline-block cursor-pointer btn btn-dark clear" > پاک کردن</a>
+            </div>
+        </div>
+
+        <script src="./main.js"></script>
+</body>
+</html>
